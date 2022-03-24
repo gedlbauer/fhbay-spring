@@ -1,4 +1,4 @@
-package at.gedlbauer.fhbay.clients.shell;
+package at.gedlbauer.fhbay.shellcommands;
 
 import at.gedlbauer.fhbay.domain.Article;
 import at.gedlbauer.fhbay.domain.Bid;

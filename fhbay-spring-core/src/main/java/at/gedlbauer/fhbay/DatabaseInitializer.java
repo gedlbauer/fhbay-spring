@@ -1,4 +1,4 @@
-package at.gedlbauer.fhbay.clients;
+package at.gedlbauer.fhbay;
 
 import at.gedlbauer.fhbay.dal.ArticleRepository;
 import at.gedlbauer.fhbay.dal.CustomerRepository;

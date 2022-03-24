@@ -1,6 +1,5 @@
 package at.gedlbauer.fhbay.logic.impl;
 
-import at.gedlbauer.fhbay.dal.ArticleRepository;
 import at.gedlbauer.fhbay.dal.BidRepository;
 import at.gedlbauer.fhbay.domain.Bid;
 import at.gedlbauer.fhbay.logic.BidService;

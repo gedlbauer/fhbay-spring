@@ -4,7 +4,6 @@ import at.gedlbauer.fhbay.util.JpaUtil;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Pointcut;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,7 +20,7 @@ public class JpaInterceptor {
     @Autowired
     private EntityManagerFactory entityManagerFactory;
 
-    @Around("execution(public * at.gedlbauer.fhbay.clients.shell..*.*(..))")
+    @Around("execution(public * at.gedlbauer.fhbay.shellcommands..*.*(..))")
     public Object holdEntityManager(ProceedingJoinPoint pjp) throws Throwable {
         if (entityManagerFactory == null)
             throw new IllegalArgumentException("Property 'entityManagerFactory' is required");
