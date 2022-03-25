@@ -12,6 +12,12 @@
     <groupId>at.gedlbauer</groupId>
     <artifactId>fhbay-spring-core</artifactId>
     <version>1.0</version>
+    <dependencies>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+        </dependency>
+    </dependencies>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

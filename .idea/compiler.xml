@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="fhbay-console-client" />
         <module name="fhbay-spring-core" />
+        <module name="fhbay-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
